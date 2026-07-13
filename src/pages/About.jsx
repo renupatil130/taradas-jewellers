@@ -19,23 +19,6 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="section">
-        <div className="container">
-          <div className="section-header">
-            <h2>Visit Our Store</h2>
-            <div className="gold-line"></div>
-          </div>
-          <div style={{ maxWidth: 600, margin: '0 auto', textAlign: 'center' }}>
-            <p style={{ fontSize: 16, marginBottom: 8 }}>📍 <strong>Taradas Jewellers</strong></p>
-            <p style={{ color: 'var(--text-light)', marginBottom: 8 }}>Main Road, Davangere, Karnataka 577001</p>
-            <p style={{ color: 'var(--text-light)', marginBottom: 8 }}>📞 +91 98450 XXXXX</p>
-            <p style={{ color: 'var(--text-light)', marginBottom: 24 }}>🕐 Open: 10:00 AM – 9:00 PM (All days)</p>
-            <div style={{ background: 'var(--gray)', borderRadius: 'var(--radius)', height: 300, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-light)' }}>
-              📍 Map — Davangere, Karnataka
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   )
 }

@@ -17,48 +17,53 @@ export default function RefundPolicy() {
         <div className="container" style={{ maxWidth: 800 }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
             <div style={{ borderBottom: '1px solid #eee', paddingBottom: 24 }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>1. No Refund Policy</h2>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>1. Scheme Installment Refunds</h2>
               <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8 }}>
-                All payments made towards any savings scheme are non-refundable, except where a refund is strictly required under applicable local laws.
+                Payments made toward the jewellery purchase scheme are generally non-refundable and cannot be withdrawn as cash. The accumulated amount must be redeemed toward the purchase of eligible gold, silver, or other precious-metal products from Taradas Jewellers showroom in Davangere, Karnataka.
               </p>
             </div>
 
             <div style={{ borderBottom: '1px solid #eee', paddingBottom: 24 }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>2. No Cash Return</h2>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>2. Technical and Gateway Refunds</h2>
               <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8 }}>
-                Once an installment has been paid, the deposited amount cannot be returned, exchanged, or refunded in cash.
+                In the case of duplicate payments, failed transactions, incorrect debits, or payment failures caused by technical glitches on the application or payment gateway, refunds will be initiated. All such technical refund requests will be processed after thorough verification with our payment gateway partner.
+              </p>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, marginTop: 8 }}>
+                Once verified, eligible technical refunds will be credited back to the customer's original payment source (bank account, credit/debit card, or UPI ID) within <strong>5–7 business days</strong>.
               </p>
             </div>
 
             <div style={{ borderBottom: '1px solid #eee', paddingBottom: 24 }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>3. Redemption of Scheme Amount</h2>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>3. Redemption of Accumulated Gold/Silver</h2>
               <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8 }}>
-                The accumulated scheme amount can only be redeemed for the purchase of BIS hallmarked gold, silver, or other eligible precious metals and jewellery available at our showroom.
+                All savings scheme accounts are intended for physical gold and silver redemption upon scheme completion. Customers can choose physical items (jewellery, bars, coins, ornaments) directly from our showroom: <strong>Taradas Jewellers, #691/A1, Mandipete, Davangere, Karnataka</strong>. Under no circumstances can these gold/silver grams or accumulated scheme deposits be converted into physical cash or currency notes.
               </p>
             </div>
 
             <div style={{ borderBottom: '1px solid #eee', paddingBottom: 24 }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>4. Cancellation</h2>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>4. Scheme Discontinuation / Cancellation</h2>
               <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8 }}>
-                Customers may request to discontinue participation in the savings scheme at any point. However, previously paid installments will not be refunded and will remain available only for eligible showroom purchases, subject to the overall scheme rules and duration guidelines.
+                If a customer chooses to discontinue their savings scheme before maturity, they will not receive any cash refund. Instead, the total amount paid until discontinuation will be held in the customer's account and can be redeemed for eligible gold/silver jewellery at our showroom once the scheme duration ends, subject to the applicable scheme rules. No maturity bonuses will be credited on discontinued schemes.
               </p>
             </div>
 
             <div style={{ borderBottom: '1px solid #eee', paddingBottom: 24 }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>5. Payment Errors</h2>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 24, marginBottom: 12 }}>5. Exceptions and Legal Compliance</h2>
               <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8 }}>
-                In the event of duplicate or incorrect payments caused by a technical issue or gateway error, please reach out to customer support immediately. Verified payment errors will be resolved and handled in accordance with applicable laws and our payment gateway partners' policies.
+                Any refunds required under applicable consumer protection laws, judicial orders, or regulatory mandates will be processed after verification in accordance with the specified legal timelines and guidelines.
               </p>
             </div>
 
             <div style={{ background: 'var(--cream)', padding: 24, borderRadius: 'var(--radius)', border: '1px solid var(--gold-light)' }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 20, marginBottom: 12 }}>6. Support</h2>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 20, marginBottom: 12 }}>6. Contact & Support</h2>
               <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8 }}>
-                For any questions regarding payments, cancellations, or your savings scheme, please contact us or visit our store during business hours:
+                For any questions regarding payments, refunds, duplicate transactions, or scheme cancellations, please reach out to our team:
               </p>
               <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 8, fontWeight: 'bold', fontSize: 16 }}>
-                <div>📞 <a href="tel:+918123282144" style={{ color: 'var(--maroon)', textDecoration: 'underline' }}>+91 81232 82144</a></div>
-                <div style={{ fontSize: 14, fontWeight: 'normal', color: 'var(--text-light)' }}>📍 Taradas Jewellers showroom, Mandipete, Davangere.</div>
+                <div>📞 Phone: <a href="tel:+918123282144" style={{ color: 'var(--maroon)', textDecoration: 'underline' }}>+91 81232 82144</a></div>
+                <div>✉️ Email: <a href="mailto:info@taradasjewellers.com" style={{ color: 'var(--maroon)', textDecoration: 'underline' }}>info@taradasjewellers.com</a></div>
+                <div style={{ fontSize: 14, fontWeight: 'normal', color: 'var(--text-light)', marginTop: 4 }}>📍 Showroom: Taradas Jewellers, Mandipete, Davangere, Karnataka.</div>
+                <div style={{ fontSize: 14, fontWeight: 'normal', color: 'var(--text-light)' }}>🕒 Support Hours: Mon – Sat, 10:00 AM – 9:00 PM (IST).</div>
               </div>
             </div>
           </div>

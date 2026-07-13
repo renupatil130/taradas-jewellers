@@ -24,6 +24,7 @@ export default function Navbar() {
           <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
             <li><NavLink to="/" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
             <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About Us</NavLink></li>
+            <li><NavLink to="/schemes" onClick={() => setMenuOpen(false)}>Gold Schemes</NavLink></li>
             <li><NavLink to="/privacy-policy" onClick={() => setMenuOpen(false)}>Privacy Policy</NavLink></li>
             <li><NavLink to="/terms-and-conditions" onClick={() => setMenuOpen(false)}>Terms & Conditions</NavLink></li>
             <li><NavLink to="/refund-policy" onClick={() => setMenuOpen(false)}>Refund Policy</NavLink></li>
