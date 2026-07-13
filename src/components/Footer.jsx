@@ -45,7 +45,7 @@ export default function Footer() {
             <Link to="/contact" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Contact Us</Link>
           </div>
           <p style={{ margin: 0, fontSize: 12, color: 'rgba(255,255,255,0.4)', textAlign: 'center' }}>
-            © 2026 Taradas Jewellers, Davangere. All rights reserved. | BIS Hallmark Certified | GST: 29XXXXX1234X1Z5
+            © 2026 Taradas Jewellers, Davangere. All rights reserved. | BIS Hallmark Certified
           </p>
         </div>
       </div>
