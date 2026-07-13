@@ -49,6 +49,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* HOMEPAGE FEATURES */}
+      <section style={{ background: 'var(--cream)', padding: '32px 0', borderBottom: '1px solid var(--gold-light)' }}>
+        <div className="container">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 24 }}>
+            {[
+              { emoji: '🏆', title: 'BIS Hallmarked Jewellery', desc: '100% certified pure gold with HUID verification.' },
+              { emoji: '💳', title: 'Secure Gold Savings Scheme', desc: 'Hedge against gold rate spikes with systematic savings.' },
+              { emoji: '🏪', title: 'In-Store Collection', desc: 'Secure showroom collection at Davangere showroom.' },
+              { emoji: '🤝', title: 'Trusted Customer Service', desc: 'Serving generations of happy families since 1965.' }
+            ].map((f, i) => (
+              <div 
+                key={i} 
+                style={{ 
+                  background: 'var(--white)', 
+                  padding: '24px 20px', 
+                  borderRadius: 'var(--radius)', 
+                  border: '1px solid rgba(198,153,62,0.15)', 
+                  boxShadow: '0 4px 6px rgba(0,0,0,0.02)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  gap: 12
+                }}
+              >
+                <div style={{ fontSize: 32 }}>{f.emoji}</div>
+                <h3 style={{ fontSize: 15, fontFamily: 'var(--font-display)', color: 'var(--maroon)', margin: 0, fontWeight: 700 }}>{f.title}</h3>
+                <p style={{ fontSize: 13, color: 'var(--text-light)', margin: 0, lineHeight: 1.5 }}>{f.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* GOLD RATES */}
       <section className="gold-rates" id="gold-rates">
         <div className="container">

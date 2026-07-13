@@ -15,39 +15,50 @@ export default function ShippingPolicy() {
       
       <section className="section" style={{ background: 'var(--white)' }}>
         <div className="container" style={{ maxWidth: 800 }}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 24, fontSize: 15, lineHeight: 1.8, color: 'var(--text)' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
             
-            <p>
-              Taradas Jewellers primarily offers a Gold Savings Scheme through this application.
-            </p>
-
-            <p>
-              Jewellery purchased using the accumulated scheme amount is generally collected from our physical store located at: <br />
-              <strong>Taradas Jewellers, #691/A1, Mandipete, Davangere – 577001, Karnataka, India</strong>.
-            </p>
-
-            <p>
-              We currently do not offer shipping or home delivery for jewellery purchased through the Gold Savings Scheme unless specifically communicated by our store.
-            </p>
-
-            <p>
-              Customers will be informed when their order is ready for pickup. To ensure the security of your high-value assets, please bring a valid government-issued photo ID (such as an Aadhaar Card or PAN Card) and your registered mobile device for OTP verification upon collection.
-            </p>
-
-            <p>
-              Any future delivery services, if introduced, will be communicated separately and may be subject to additional terms.
-            </p>
-
-            <div style={{ background: 'var(--cream)', padding: 24, borderRadius: 'var(--radius)', border: '1px solid var(--gold-light)', marginTop: 16 }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 20, marginBottom: 12 }}>Questions About Product Collection?</h2>
-              <p style={{ margin: 0 }}>
-                For any questions regarding product collection, please contact us at:
+            <div style={{ borderBottom: '1px solid #eee', paddingBottom: 20 }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 22, marginBottom: 8 }}>Gold Savings Scheme</h2>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, margin: 0 }}>
+                Taradas Jewellers offers a Gold Savings Scheme through this application. Customers can redeem their accumulated savings for eligible jewellery purchases.
               </p>
-              <div style={{ marginTop: 12, fontWeight: 'bold', fontSize: 16 }}>
+            </div>
+
+            <div style={{ borderBottom: '1px solid #eee', paddingBottom: 20 }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 22, marginBottom: 8 }}>Store Collection</h2>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, margin: 0 }}>
+                Jewellery purchased through the Gold Savings Scheme is generally available for collection from our showroom at <strong>Taradas Jewellers, #691/A1, Mandipete, Davangere – 577001, Karnataka, India</strong>.
+              </p>
+            </div>
+
+            <div style={{ borderBottom: '1px solid #eee', paddingBottom: 20 }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 22, marginBottom: 8 }}>No Standard Shipping</h2>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, margin: 0 }}>
+                We currently do not provide regular home delivery or shipping for jewellery purchased under the Gold Savings Scheme unless specifically agreed upon by our store.
+              </p>
+            </div>
+
+            <div style={{ borderBottom: '1px solid #eee', paddingBottom: 20 }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 22, marginBottom: 8 }}>Collection Notification</h2>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, margin: 0 }}>
+                Customers will be notified when their jewellery is ready for collection.
+              </p>
+            </div>
+
+            <div style={{ borderBottom: '1px solid #eee', paddingBottom: 20 }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 22, marginBottom: 8 }}>Identity Verification</h2>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, margin: 0 }}>
+                Customers may be required to present valid identification (such as Aadhaar Card, PAN Card, or Passport) or proof of purchase at the time of collection to ensure the security of their investment.
+              </p>
+            </div>
+
+            <div style={{ background: 'var(--cream)', padding: 24, borderRadius: 'var(--radius)', border: '1px solid var(--gold-light)' }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--maroon)', fontSize: 20, marginBottom: 12 }}>Contact Us</h2>
+              <p style={{ color: 'var(--text)', fontSize: 15, lineHeight: 1.8, margin: '0 0 12px 0' }}>
+                For any questions regarding product collection or delivery, please contact us at:
+              </p>
+              <div style={{ fontWeight: 'bold', fontSize: 16 }}>
                 📞 <a href="tel:+918123282144" style={{ color: 'var(--maroon)', textDecoration: 'underline' }}>+91 81232 82144</a>
-              </div>
-              <div style={{ marginTop: 8, fontSize: 14, color: 'var(--text-light)', fontWeight: 'normal' }}>
-                ✉️ Support Email: <a href="mailto:info@taradasjewellers.com" style={{ color: 'var(--maroon)' }}>info@taradasjewellers.com</a>
               </div>
             </div>
 
